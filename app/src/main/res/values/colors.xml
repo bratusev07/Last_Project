@@ -6,4 +6,5 @@
     <color name="colorOrange">#FF6F00</color>
     <color name="myColorGreen">#9C27B0</color>
     <color name="myColorBlue">#ABF1EB</color>
+    <color name="favorite">#364767</color>
 </resources>
