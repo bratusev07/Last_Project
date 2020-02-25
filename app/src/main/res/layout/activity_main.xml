@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:screenOrientation="portrait">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/unnamed" />
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:gravity="center"
+        android:text="Secret Friend"
+        android:textColor="@color/myColorGreen"
+        android:textSize="60dp" />
+
+    <Button
+        android:id="@+id/continue_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:text="Продолжить"
+        android:textSize="50sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/offline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/online"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/shadow2"
+        android:focusable="true"
+
+        android:text="  Offline  "
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/online"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/shadow"
+        android:focusable="true"
+        android:text="   Online   "
+        android:textSize="60sp" />
+
+
+</RelativeLayout>
